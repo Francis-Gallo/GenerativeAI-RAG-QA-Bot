@@ -28,9 +28,6 @@ paper on LoRA (low-rank adaptation for LLMs).
 2. Upload the PDF to `/content/` (or change `pdf_path` to your own document).
 3. Run all cells. Gradio prints a temporary public `*.gradio.live` link.
 
-Note: add `import gradio as gr` before the Gradio cell. The import is missing from the saved notebook, so a fresh
-"Run all" stops there.
-
 ## What I learned
 
 - Chunk size and overlap matter as much as the model for small documents.
